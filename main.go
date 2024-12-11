@@ -27,13 +27,13 @@ import (
 	"github.com/kelseyhightower/envconfig"
 	"github.com/sirupsen/logrus"
 
-	"github.com/networkservicemesh/cmd-nsmgr/internal/config"
-	"github.com/networkservicemesh/cmd-nsmgr/internal/manager"
-	"github.com/networkservicemesh/sdk/pkg/tools/debug"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/log/logruslogger"
-	"github.com/networkservicemesh/sdk/pkg/tools/opentelemetry"
-	"github.com/networkservicemesh/sdk/pkg/tools/pprofutils"
+	"github.com/Nordix/nsm-cmd-nsmgr/internal/config"
+	"github.com/Nordix/nsm-cmd-nsmgr/internal/manager"
+	"github.com/Nordix/nsm-sdk/pkg/tools/debug"
+	"github.com/Nordix/nsm-sdk/pkg/tools/log"
+	"github.com/Nordix/nsm-sdk/pkg/tools/log/logruslogger"
+	"github.com/Nordix/nsm-sdk/pkg/tools/opentelemetry"
+	"github.com/Nordix/nsm-sdk/pkg/tools/pprofutils"
 )
 
 func main() {

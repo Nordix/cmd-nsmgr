@@ -41,18 +41,18 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/nsmgr"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/authorize"
-	registryauthorize "github.com/networkservicemesh/sdk/pkg/registry/common/authorize"
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
-	"github.com/networkservicemesh/sdk/pkg/tools/listenonurl"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	authmonitor "github.com/networkservicemesh/sdk/pkg/tools/monitorconnection/authorize"
-	"github.com/networkservicemesh/sdk/pkg/tools/spiffejwt"
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
-	"github.com/networkservicemesh/sdk/pkg/tools/tracing"
+	"github.com/Nordix/nsm-sdk/pkg/networkservice/chains/nsmgr"
+	"github.com/Nordix/nsm-sdk/pkg/networkservice/common/authorize"
+	registryauthorize "github.com/Nordix/nsm-sdk/pkg/registry/common/authorize"
+	"github.com/Nordix/nsm-sdk/pkg/tools/grpcutils"
+	"github.com/Nordix/nsm-sdk/pkg/tools/listenonurl"
+	"github.com/Nordix/nsm-sdk/pkg/tools/log"
+	authmonitor "github.com/Nordix/nsm-sdk/pkg/tools/monitorconnection/authorize"
+	"github.com/Nordix/nsm-sdk/pkg/tools/spiffejwt"
+	"github.com/Nordix/nsm-sdk/pkg/tools/token"
+	"github.com/Nordix/nsm-sdk/pkg/tools/tracing"
 
-	"github.com/networkservicemesh/cmd-nsmgr/internal/config"
+	"github.com/Nordix/nsm-cmd-nsmgr/internal/config"
 )
 
 const (
